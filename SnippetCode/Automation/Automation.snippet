@@ -1,0 +1,311 @@
+﻿<?xml version="1.0" encoding="utf-8" ?>
+<CodeSnippets>
+  <CodeSnippet Format="1.0.0">
+    <Header>
+      <Title>Selenium Click</Title>
+      <Author>Eduardo</Author>
+      <Description>Auto-Fill Selenium Click</Description>
+      <Shortcut>seleClick</Shortcut>
+    </Header>
+    <Snippet>
+      <Code Language="CSharp">
+        <![CDATA[  
+            public bool clicar()
+            {
+                WaitElement("");
+                ClickOnTheElement("");
+                return true;
+            }]]>
+      </Code>
+    </Snippet>
+  </CodeSnippet>
+
+  <CodeSnippet Format="1.0.0">
+    <Header>
+      <Title>Selenium SendKey</Title>
+      <Author>Eduardo</Author>
+      <Description>Auto-Fill Selenium SendKey</Description>
+      <Shortcut>seleSend</Shortcut>
+    </Header>
+    <Snippet>
+      <Code Language="CSharp">
+        <![CDATA[  
+            public bool inserir(string value)
+            {
+                WaitElement("");
+                SendKeyToElement("", value);
+                return true;
+            }]]>
+      </Code>
+    </Snippet>
+  </CodeSnippet>
+  
+  <CodeSnippet Format="1.0.0">
+    <Header>
+      <Title>Selenium Validate</Title>
+      <Author>Eduardo</Author>
+      <Description>Auto-Fill Selenium Validate</Description>
+      <Shortcut>seleValidate</Shortcut>
+    </Header>
+    <Snippet>
+      <Code Language="CSharp">
+        <![CDATA[  
+            public bool validar(string value)
+            {
+                WaitElement("");
+                ValidateElementVisible("");
+                ValidateInnerTextEquals("",value);
+                ValidateValueTextEquals("",value);
+                return true;
+            }]]>
+      </Code>
+    </Snippet>
+  </CodeSnippet>
+
+  <CodeSnippet Format="1.0.0">
+    <Header>
+      <Title>Selenium PageObject</Title>
+      <Author>Eduardo</Author>
+      <Description>Auto-Fill Selenium PageObject</Description>
+      <Shortcut>seleXml</Shortcut>
+    </Header>
+    <Snippet>
+      <Code Language="CSharp">
+        <![CDATA[  
+            <?xml version="1.0" encoding="utf-8" ?>
+            <locators>
+              <element key="" by="" value="" baseValue=""/>
+            </locators>
+            ]]>
+      </Code>
+    </Snippet>
+  </CodeSnippet>
+  
+  <CodeSnippet Format="1.0.0">
+    <Header>
+      <Title>Selenium Navigate</Title>
+      <Author>Eduardo</Author>
+      <Description>Auto-Fill Selenium Method Navigate</Description>
+      <Shortcut>seleOpenBrowser</Shortcut>
+    </Header>
+    <Snippet>
+      <Code Language="CSharp">
+        <![CDATA[  
+         public bool startBrowser(string url)
+         {
+            OpenPage(url);
+            return true;
+         }]]>
+      </Code>
+    </Snippet>
+  </CodeSnippet>
+
+  <CodeSnippet Format="1.0.0">
+    <Header>
+      <Title>Selenium ScenarioContext</Title>
+      <Author>Eduardo</Author>
+      <Description>Auto-Fill Selenium ScenarioContext</Description>
+      <Shortcut>seleContextScenario</Shortcut>
+    </Header>
+    <Snippet>
+      <Code Language="CSharp">
+        <![CDATA[ScenarioContext.Current.ScenarioInfo.Title.Equals("");]]>
+      </Code>
+    </Snippet>
+  </CodeSnippet>
+
+  <CodeSnippet Format="1.0.0">
+    <Header>
+      <Title>Selenium StepContext</Title>
+      <Author>Eduardo</Author>
+      <Description>Auto-Fill Selenium StepContext</Description>
+      <Shortcut>seleContextStep</Shortcut>
+    </Header>
+    <Snippet>
+      <Code Language="CSharp">
+        <![CDATA[ScenarioContext.Current.StepContext.StepInfo.Text.Equals("")]]>
+      </Code>
+    </Snippet>
+  </CodeSnippet>
+
+  <CodeSnippet Format="1.0.0">
+    <Header>
+      <Title>Selenium FeatureContext</Title>
+      <Author>Eduardo</Author>
+      <Description>Auto-Fill Selenium FeatureContext</Description>
+      <Shortcut>seleContextFeature</Shortcut>
+    </Header>
+    <Snippet>
+      <Code Language="CSharp">
+        <![CDATA[FeatureContext.Current.FeatureInfo.Title.Equals("");]]>
+      </Code>
+    </Snippet>
+  </CodeSnippet> 
+
+  <CodeSnippet Format="1.0.0">
+    <Header>
+      <Title>Specflow Hooks</Title>
+      <Author>Eduardo</Author>
+      <Description>Auto-Fill Specflow Hooks</Description>
+      <Shortcut>seleHooks</Shortcut>
+    </Header>
+    <Snippet>
+      <Code Language="CSharp">
+        <![CDATA[
+        [BeforeTestRun]
+        public static void BeforeTestRun() 
+        {
+            //Inserir o caminho do relatório e da hospedagem xml
+            Hook.BeforeTestRun(@"Report",@"Locators");
+        }
+        
+        [BeforeFeature]
+        public static void BeforeFeature()
+        {
+            Hook.BeforeFeature();
+        }
+        
+        [BeforeScenario]
+        public static void BeforeScenario()
+        {
+             /* -- Escolha Navegador -- */
+            //Edge
+            //Firefox
+            //Chrome
+            
+             /* -- Ativar ou desavitar headless -- */
+              //string headlessAtivado = "--headless";
+              string headlessDesativado = "none"; 
+              
+               /* -- Ativar ou desavitar modo mobile chrome, deve inserir o mesmo nome do device do chrome -- */
+              string device = string.Empty;         
+             
+            Hook.BeforeScenario("Chrome",headlessDesativado,device);
+        }
+        
+        [AfterStep]
+        public static void AfterStep()
+        {
+            Hook.AfterStep();
+        }
+        
+        [AfterScenario]
+        public static void AfterScenario()
+        {
+            Hook.AfterScenario();
+        }
+        
+        [AfterTestRun]
+        public static void AfterTestRun()
+        {
+            Hook.AfterTestRun();
+        }]]>
+      </Code>
+    </Snippet>
+  </CodeSnippet>
+
+  <CodeSnippet Format="1.0.0">
+    <Header>
+      <Title>NUnit Assert</Title>
+      <Author>Eduardo</Author>
+      <Description>Auto-Fill NUnit Assert</Description>
+      <Shortcut>seleAssert</Shortcut>
+    </Header>
+    <Snippet>
+      <Code Language="CSharp">
+        <![CDATA[
+            Assert.IsTrue(metodo());]]>
+      </Code>
+    </Snippet>
+  </CodeSnippet>
+
+  <CodeSnippet Format="1.0.0">
+    <Header>
+      <Title>IJavaScript</Title>
+      <Author>Eduardo</Author>
+      <Description>Auto-Fill javascript with numbers</Description>
+      <Shortcut>jsScrooll</Shortcut>
+    </Header>
+    <Snippet>
+      <Code Language="CSharp">
+        <![CDATA[
+            IJavaScriptExecutor js = Selenium.driver as IJavaScriptExecutor;
+            js.ExecuteScript("window.scrollBy(0, 1000)", "");]]>
+      </Code>
+    </Snippet>
+  </CodeSnippet>
+
+  <CodeSnippet Format="1.0.0">
+    <Header>
+      <Title>IJavaScriptView</Title>
+      <Author>Eduardo</Author>
+      <Description>Auto-Fill javascript with view</Description>
+      <Shortcut>jsScroollView</Shortcut>
+    </Header>
+    <Snippet>
+      <Code Language="CSharp">
+        <![CDATA[
+            IJavaScriptExecutor js = Selenium.driver as IJavaScriptExecutor;
+            js.ExecuteScript("arguments[0].scrollIntoView();", elemento);]]>
+      </Code>
+    </Snippet>
+  </CodeSnippet>
+
+  <CodeSnippet Format="1.0.0">
+    <Header>
+      <Title>CreateTemplate</Title>
+      <Author>Eduardo</Author>
+      <Description>Create initial project folders</Description>
+      <Shortcut>createTemplate</Shortcut>
+    </Header>
+    <Snippet>
+      <Code Language="CSharp">
+        <![CDATA[
+            using Hook_Validator;
+            static void Main(string[] args)
+            {
+            Tools.createTemplate("insiraNomeDoFolder");
+            }]]>
+      </Code>
+    </Snippet>
+  </CodeSnippet>
+
+  <CodeSnippet Format="1.0.0">
+    <Header>
+      <Title>Sikuli Invoke</Title>
+      <Author>Eduardo</Author>
+      <Description>Sikili methods</Description>
+      <Shortcut>sikuli</Shortcut>
+    </Header>
+    <Snippet>
+      <Code Language="CSharp">
+        <![CDATA[
+            // O Sikuli não funcionará se estiver com o Desktop ligado no OneDrive da Microsoft
+            // Sugerido é que o projeto seja executar no driver C: evitando o OneDrive de ter o acesso.
+            // Necessita da instalação apenas do java Version 8 Update 311.
+            // Copie e cole o link       www.java.com/pt-BR/download/ie_manual.jsp?locale=pt_BR
+            
+            string alvoInicial = System.IO.Directory.GetParent(System.IO.Directory.GetParent(System.IO.Directory.GetParent(Path.GetDirectoryName(System.Reflection.Assembly.GetExecutingAssembly().Location)).FullName).FullName).FullName + @"\Caminho dentro do projeto a imagem";
+            string alvoFinal = System.IO.Directory.GetParent(System.IO.Directory.GetParent(System.IO.Directory.GetParent(Path.GetDirectoryName(System.Reflection.Assembly.GetExecutingAssembly().Location)).FullName).FullName).FullName + @"\Caminho dentro do projeto a imagem";
+           
+            APILauncher launcher = new APILauncher(true);
+            launcher.Start();
+            
+            Pattern elemento = new Pattern(alvoInicial);
+            Pattern elemento2 = new Pattern(alvoFinal);
+            Screen screen = new Screen();            
+            screen.Wait(elemento, true); 
+            screen.Click(elemento, true);
+            screen.DoubleClick(elemento, true);      
+            screen.RightClick(elemento, true);            
+            screen.DragDrop(elemento, elemento2);
+            screen.Type(elemento, "String do elemento" + Key.ENTER);
+            bool vanished = scrn.WaitVanish(pattern_ChromeIcon, 10);
+            bool exists = scrn.Exists(pattern_ChromeIcon, 10);           
+            
+            launcher.Stop();]]>
+      </Code>
+    </Snippet>
+  </CodeSnippet>
+
+</CodeSnippets>

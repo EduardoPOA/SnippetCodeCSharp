@@ -1,0 +1,57 @@
+C:\Users\eduar\OneDrive\Área de Trabalho\Extension\SnippetCode\SnippetCode\bin\Debug\Automation\Automation.snippet
+C:\Users\eduar\OneDrive\Área de Trabalho\Extension\SnippetCode\SnippetCode\bin\Debug\Automation\Automation.pkgdef
+C:\Users\eduar\OneDrive\Área de Trabalho\Extension\SnippetCode\SnippetCode\bin\Debug\SnippetCode.dll
+C:\Users\eduar\OneDrive\Área de Trabalho\Extension\SnippetCode\SnippetCode\bin\Debug\SnippetCode.pdb
+C:\Users\eduar\OneDrive\Área de Trabalho\Extension\SnippetCode\SnippetCode\bin\Debug\SnippetCode.pkgdef
+C:\Users\eduar\OneDrive\Área de Trabalho\Extension\SnippetCode\SnippetCode\bin\Debug\SnippetCode.vsix
+C:\Users\eduar\OneDrive\Área de Trabalho\Extension\SnippetCode\SnippetCode\bin\Debug\extension.vsixmanifest
+C:\Users\eduar\OneDrive\Área de Trabalho\Extension\SnippetCode\SnippetCode\obj\Debug\SnippetCode.csproj.AssemblyReference.cache
+C:\Users\eduar\OneDrive\Área de Trabalho\Extension\SnippetCode\SnippetCode\obj\Debug\_EmptyResource.resources
+C:\Users\eduar\OneDrive\Área de Trabalho\Extension\SnippetCode\SnippetCode\obj\Debug\SnippetCode.csproj.GenerateResource.cache
+C:\Users\eduar\OneDrive\Área de Trabalho\Extension\SnippetCode\SnippetCode\obj\Debug\SnippetCode.GeneratedMSBuildEditorConfig.editorconfig
+C:\Users\eduar\OneDrive\Área de Trabalho\Extension\SnippetCode\SnippetCode\obj\Debug\SnippetCode.csproj.CoreCompileInputs.cache
+C:\Users\eduar\OneDrive\Área de Trabalho\Extension\SnippetCode\SnippetCode\obj\Debug\SnippetCode.dll
+C:\Users\eduar\OneDrive\Área de Trabalho\Extension\SnippetCode\SnippetCode\obj\Debug\SnippetCode.pdb
+C:\Users\eduar\OneDrive\Área de Trabalho\Extension\SnippetCode\SnippetCode\obj\Debug\SnippetCode.pkgdef
+C:\Users\eduar\OneDrive\Área de Trabalho\Extension\SnippetCode\SnippetCode\obj\Debug\SnippetCode.latest.pkgdef
+C:\Users\eduar\OneDrive\Área de Trabalho\Extension\SnippetCode\SnippetCode\obj\Debug\extension.vsixmanifest
+C:\Users\eduar\OneDrive\Área de Trabalho\Extension\SnippetCode\SnippetCode\obj\Debug\files.json
+C:\Users\eduar\OneDrive\Área de Trabalho\Extension\SnippetCode\SnippetCode\obj\Debug\createTemplateManifests.cache
+G:\Meu Drive\WorkspaceC#\AutomaçãoNetCore\Extension\SnippetCode\SnippetCode\bin\Debug\Automation\Automation.snippet
+G:\Meu Drive\WorkspaceC#\AutomaçãoNetCore\Extension\SnippetCode\SnippetCode\bin\Debug\Automation\Automation.pkgdef
+G:\Meu Drive\WorkspaceC#\AutomaçãoNetCore\Extension\SnippetCode\SnippetCode\bin\Debug\SnippetCode.dll
+G:\Meu Drive\WorkspaceC#\AutomaçãoNetCore\Extension\SnippetCode\SnippetCode\bin\Debug\SnippetCode.pdb
+G:\Meu Drive\WorkspaceC#\AutomaçãoNetCore\Extension\SnippetCode\SnippetCode\bin\Debug\SnippetCode.pkgdef
+G:\Meu Drive\WorkspaceC#\AutomaçãoNetCore\Extension\SnippetCode\SnippetCode\bin\Debug\SnippetCode.vsix
+G:\Meu Drive\WorkspaceC#\AutomaçãoNetCore\Extension\SnippetCode\SnippetCode\bin\Debug\extension.vsixmanifest
+G:\Meu Drive\WorkspaceC#\AutomaçãoNetCore\Extension\SnippetCode\SnippetCode\obj\Debug\SnippetCode.csproj.AssemblyReference.cache
+G:\Meu Drive\WorkspaceC#\AutomaçãoNetCore\Extension\SnippetCode\SnippetCode\obj\Debug\_EmptyResource.resources
+G:\Meu Drive\WorkspaceC#\AutomaçãoNetCore\Extension\SnippetCode\SnippetCode\obj\Debug\SnippetCode.csproj.GenerateResource.cache
+G:\Meu Drive\WorkspaceC#\AutomaçãoNetCore\Extension\SnippetCode\SnippetCode\obj\Debug\SnippetCode.GeneratedMSBuildEditorConfig.editorconfig
+G:\Meu Drive\WorkspaceC#\AutomaçãoNetCore\Extension\SnippetCode\SnippetCode\obj\Debug\SnippetCode.csproj.CoreCompileInputs.cache
+G:\Meu Drive\WorkspaceC#\AutomaçãoNetCore\Extension\SnippetCode\SnippetCode\obj\Debug\SnippetCode.dll
+G:\Meu Drive\WorkspaceC#\AutomaçãoNetCore\Extension\SnippetCode\SnippetCode\obj\Debug\SnippetCode.pdb
+G:\Meu Drive\WorkspaceC#\AutomaçãoNetCore\Extension\SnippetCode\SnippetCode\obj\Debug\SnippetCode.pkgdef
+G:\Meu Drive\WorkspaceC#\AutomaçãoNetCore\Extension\SnippetCode\SnippetCode\obj\Debug\SnippetCode.latest.pkgdef
+G:\Meu Drive\WorkspaceC#\AutomaçãoNetCore\Extension\SnippetCode\SnippetCode\obj\Debug\extension.vsixmanifest
+G:\Meu Drive\WorkspaceC#\AutomaçãoNetCore\Extension\SnippetCode\SnippetCode\obj\Debug\files.json
+G:\Meu Drive\WorkspaceC#\AutomaçãoNetCore\Extension\SnippetCode\SnippetCode\obj\Debug\createTemplateManifests.cache
+C:\Users\eduar\OneDrive\Área de Trabalho\Meus-Projetos\Extension\SnippetCode\SnippetCode\bin\Debug\Automation\Automation.snippet
+C:\Users\eduar\OneDrive\Área de Trabalho\Meus-Projetos\Extension\SnippetCode\SnippetCode\bin\Debug\Automation\Automation.pkgdef
+C:\Users\eduar\OneDrive\Área de Trabalho\Meus-Projetos\Extension\SnippetCode\SnippetCode\bin\Debug\SnippetCode.dll
+C:\Users\eduar\OneDrive\Área de Trabalho\Meus-Projetos\Extension\SnippetCode\SnippetCode\bin\Debug\SnippetCode.pdb
+C:\Users\eduar\OneDrive\Área de Trabalho\Meus-Projetos\Extension\SnippetCode\SnippetCode\bin\Debug\SnippetCode.pkgdef
+C:\Users\eduar\OneDrive\Área de Trabalho\Meus-Projetos\Extension\SnippetCode\SnippetCode\bin\Debug\SnippetCode.vsix
+C:\Users\eduar\OneDrive\Área de Trabalho\Meus-Projetos\Extension\SnippetCode\SnippetCode\bin\Debug\extension.vsixmanifest
+C:\Users\eduar\OneDrive\Área de Trabalho\Meus-Projetos\Extension\SnippetCode\SnippetCode\obj\Debug\SnippetCode.csproj.AssemblyReference.cache
+C:\Users\eduar\OneDrive\Área de Trabalho\Meus-Projetos\Extension\SnippetCode\SnippetCode\obj\Debug\_EmptyResource.resources
+C:\Users\eduar\OneDrive\Área de Trabalho\Meus-Projetos\Extension\SnippetCode\SnippetCode\obj\Debug\SnippetCode.csproj.GenerateResource.cache
+C:\Users\eduar\OneDrive\Área de Trabalho\Meus-Projetos\Extension\SnippetCode\SnippetCode\obj\Debug\SnippetCode.GeneratedMSBuildEditorConfig.editorconfig
+C:\Users\eduar\OneDrive\Área de Trabalho\Meus-Projetos\Extension\SnippetCode\SnippetCode\obj\Debug\SnippetCode.csproj.CoreCompileInputs.cache
+C:\Users\eduar\OneDrive\Área de Trabalho\Meus-Projetos\Extension\SnippetCode\SnippetCode\obj\Debug\SnippetCode.dll
+C:\Users\eduar\OneDrive\Área de Trabalho\Meus-Projetos\Extension\SnippetCode\SnippetCode\obj\Debug\SnippetCode.pdb
+C:\Users\eduar\OneDrive\Área de Trabalho\Meus-Projetos\Extension\SnippetCode\SnippetCode\obj\Debug\SnippetCode.pkgdef
+C:\Users\eduar\OneDrive\Área de Trabalho\Meus-Projetos\Extension\SnippetCode\SnippetCode\obj\Debug\SnippetCode.latest.pkgdef
+C:\Users\eduar\OneDrive\Área de Trabalho\Meus-Projetos\Extension\SnippetCode\SnippetCode\obj\Debug\extension.vsixmanifest
+C:\Users\eduar\OneDrive\Área de Trabalho\Meus-Projetos\Extension\SnippetCode\SnippetCode\obj\Debug\files.json
+C:\Users\eduar\OneDrive\Área de Trabalho\Meus-Projetos\Extension\SnippetCode\SnippetCode\obj\Debug\createTemplateManifests.cache
